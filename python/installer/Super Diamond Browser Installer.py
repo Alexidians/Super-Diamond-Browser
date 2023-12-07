@@ -58,6 +58,6 @@ path = input("Enter Path Where to install Super Diamond Browser:")
 if input("Should a SuperDiamondBrowser folder be created? (Y/N):"):
   os.mkdir(path + "/SuperDiamondBrowser")
   path = path + "/SuperDiamondBrowser"
-shortcutPath = input("Enter Path Where to Put Super Diamond Browser Shortcut:")
+shortcutPath = input("Enter Path Where to Put Super Diamond Browser Shortcut (Shortcut In Development):")
 os.mkdir(shortcutPath + "/Super Diamond Browser")
 install()
